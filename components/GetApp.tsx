@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 const GetApp = () => {
   return (
     <section className="flexCenter w-full flex-col pb-[100px]">
@@ -9,6 +11,15 @@ const GetApp = () => {
           <p className="regular-16 text-gray-10">
             Available on iOS and Android
           </p>
+          <div>
+            <Button
+              type="button"
+              title="Download App"
+              icon="/apple.svg"
+              variant="btn_white"
+              full
+            />
+          </div>
         </div>
       </div>
     </section>
